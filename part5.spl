@@ -1,0 +1,2 @@
+SELECT lastName, firstName, email, jobTitle FROM employees WHERE officeCode =
+	(SELECT officeCode FROM offices WHERE city = "San Francisco")
