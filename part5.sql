@@ -1,0 +1,1 @@
+SELECT lastName, firstName, email, jobTitle FROM employees LEFT JOIN offices ON employees.officeCode=offices.officeCode WHERE city='San Francisco'  ORDER BY lastName;
