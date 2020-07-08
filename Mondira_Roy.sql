@@ -37,9 +37,7 @@ where city='San Francisco' order by lastName;
 /*Part-6*/
 select productName,ProductLine,productScale, productVendor from products where productLine LIKE '%cars';
 
-select productName,productLine,productScale, productVendor 
-from products 
-where productLine LIKE '%cars'
-GROUP BY productLine
-ORDER BY productName;
-
+SELECT productName, productLine, productScale, productVendor
+FROM products
+WHERE productLine LIKE '%cars'
+ORDER BY productLine DESC, productName ASC;
