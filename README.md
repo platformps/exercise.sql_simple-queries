@@ -1,5 +1,5 @@
 ## MySQL Hands-On #1: Simple Queries
-* You can download a .docx version of this exercise herePreview the document.
+* The original `.docx` version of this assignment can be found [here](./original-readme.docx)
 
  
 
