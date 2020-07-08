@@ -1,3 +1,1 @@
-SELECT *
-FROM orders;
-ORDER BY orderNumber ASC;
+SELECT * FROM [orders] LIMIT 6;
