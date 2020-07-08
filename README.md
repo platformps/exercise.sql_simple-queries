@@ -9,7 +9,7 @@
  
 
 ### Deliverables:
-* All queries should be written and submitted in a single SQL script file named `<your_name>.sql`.
+* create a respective `.sql` file as a submission for each Part listed below.
 * The database schema is:
 
 
