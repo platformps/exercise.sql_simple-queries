@@ -1,1 +1,3 @@
-SELECT DISTINCT status FROM orders ORDER BY status ASC;
+SELECT DISTINCT status 
+    FROM orders 
+    ORDER BY status ASC;
