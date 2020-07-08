@@ -1,0 +1,3 @@
+--Part 3
+SELECT DISTINCT STATUS FROM orders
+ORDER BY status ASC;

@@ -1,0 +1,4 @@
+--Part 6
+SELECT productName, productLine, productScale, productVendor FROM products
+WHERE productLine = "Vintage Cars" OR productLine = "Classic Cars"
+ORDER BY productLine DESC, productName;
