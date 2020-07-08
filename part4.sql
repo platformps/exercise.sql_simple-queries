@@ -1,0 +1,1 @@
+SELECT * FROM payments WHERE paymentDate >= 20050101 ORDER BY paymentDate;
