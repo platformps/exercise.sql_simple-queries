@@ -1,6 +1,6 @@
 SELECT DISTINCT
-	status AS "unique_values";
+	status
 FROM 
-	orders;
+	orders
 ORDER BY
 	  status ASC;
