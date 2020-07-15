@@ -1,0 +1,1 @@
+SELECT productName, productLine, buyPrice FROM products;
